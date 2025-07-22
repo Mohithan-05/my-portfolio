@@ -363,6 +363,21 @@
         align-items: center;
         text-align: left;
       }
+      .about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin-right: 30px; /* optional spacing from text */
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
       .about-image {
         width: 350px;
@@ -925,6 +940,19 @@
         .contact-info {
           grid-template-columns: 1fr;
         }
+        .about-image {
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          border-radius: 50%; /* remove this if you want square */
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
       }
     </style>
   </head>
@@ -942,7 +970,7 @@
     <!-- Header Navigation -->
     <header>
       <nav>
-        <div class="logo fade-in">AC</div>
+        <div class="logo fade-in">Mohithan</div>
         <ul class="nav-links fade-in">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -977,7 +1005,11 @@
         <div class="section-content">
           <h2 class="section-title fade-in">About Me</h2>
           <div class="about-content">
-            <div class="about-image slide-left">AC</div>
+            <div class="about-image slide-left">
+  <img src="images/myself.jpg" alt="My Photo" class="profile-img" />
+</div>
+
+
             <div class="about-text slide-right">
               <h2>ML Engineer & Python Devloper</h2>
               <p>
@@ -995,7 +1027,7 @@
                 always excited to collaborate, learn, and grow with others in
                 the tech community.
               </p>
-              <a href="/myself.jpg" class="cv-button">Download CV</a>
+              <a href="/mohithan B S (1).pdf" class="cv-button">Download CV</a>
             </div>
           </div>
         </div>
